@@ -1,0 +1,39 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+  margin: 0;
+  background-color: var(--Grayishblue);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: var(--White);
+  padding: 1rem;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: var(--Darkblue);
+}
+
+p {
+  font-size: 15px;
+}
